@@ -1,5 +1,12 @@
 import React from "react"
+import { ExampleButton } from "../components/Button"
+import Layout from "../components/Layout"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <Layout>
+      <h1>Hello world!</h1>
+      <ExampleButton>test</ExampleButton>
+    </Layout>
+  )
 }
